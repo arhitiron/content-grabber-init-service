@@ -27,13 +27,13 @@ $ docker-compose up
 * Add default values instead of using env vars
 
 ## DEPENDS ON
-All of this projects are on github. But they should be built.
+All of this projects are on github. But they should be built (in some reason you need to use `sudo`).
 ```
 $ docker build -t ${name} .
 ```
-In some reason you need to use `sudo`
 
-* Link service
-* Doc service
-* Doc storage
-* Raw cache
+
+* Link service [https://github.com/arhitiron/content-grabber-link-servie](https://github.com/arhitiron/content-grabber-link-servie)
+* Doc service [https://github.com/arhitiron/content-grabber-doc-service](https://github.com/arhitiron/content-grabber-doc-service)
+* Doc storage [https://github.com/arhitiron/content-grabber-doc-storage](https://github.com/arhitiron/content-grabber-doc-storage)
+* Raw cache [https://github.com/arhitiron/content-grabber-raw-cache](https://github.com/arhitiron/content-grabber-raw-cache)
