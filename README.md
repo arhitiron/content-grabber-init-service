@@ -1,0 +1,39 @@
+# Content grabber
+
+This project created just for fun and it's a first project on python,
+so if you will find some bugs or deviation from styleguide, submit a pull request.
+
+This service provides content from url and starts recursive grabbing.
+By service means collection of services (init service, link service,
+doc service, doc storage and raw cache).
+
+## Run the using docker-compose
+
+1. Install [Docker](https://www.docker.com/).
+
+2. Install [Docker-compose](https://docs.docker.com/compose/install/).
+
+3. Run:
+```
+$ docker-compose up
+```
+
+## TODO LIST
+
+* Create DSL for parsing content and fetching only necessary items
+* Refactoring needed
+* API gateway
+* Doc projection service
+* Add default values instead of using env vars
+
+## DEPENDS ON
+All of this projects are on github. But they should be built.
+```
+$ docker build -t ${name} .
+```
+In some reason you need to use `sudo`
+
+* Link service
+* Doc service
+* Doc storage
+* Raw cache
