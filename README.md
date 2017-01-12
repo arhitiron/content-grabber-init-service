@@ -7,7 +7,7 @@ This service provides content from url and starts recursive grabbing.
 By service means collection of services (init service, link service,
 doc service, doc storage and raw cache).
 
-## Run the using docker-compose
+## Run by using docker-compose
 
 1. Install [Docker](https://www.docker.com/).
 
