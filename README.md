@@ -37,3 +37,7 @@ $ docker build -t ${name} .
 * Doc service [https://github.com/arhitiron/content-grabber-doc-service](https://github.com/arhitiron/content-grabber-doc-service)
 * Doc storage [https://github.com/arhitiron/content-grabber-doc-storage](https://github.com/arhitiron/content-grabber-doc-storage)
 * Raw cache [https://github.com/arhitiron/content-grabber-raw-cache](https://github.com/arhitiron/content-grabber-raw-cache)
+
+## Simple schema
+
+![simple-parser](simple-parser.png?raw=true "simple-parser")
